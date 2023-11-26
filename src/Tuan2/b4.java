@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class b4 {
     public static void threeSum(int a[], int n) {
         for (int i = 0; i < n - 2; i++) {
             int j = i + 1;
