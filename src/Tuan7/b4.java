@@ -1,6 +1,3 @@
-package Tuan7;
-
-
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -24,6 +21,8 @@ class Result {
 
     public static int findMedian(List<Integer> arr) {
         // Write your code here
+        Collections.sort(arr);
+        return arr.get(arr.size()/2);
 
     }
 
