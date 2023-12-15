@@ -1,9 +1,8 @@
 package Tuan7;
 
-import java.io.*;
 import java.util.*;
 
-public class b3 {
+public class b6 {
     static int partition(int[] arr, int low, int high) {
         int pivot = arr[high];
         int j = low;
